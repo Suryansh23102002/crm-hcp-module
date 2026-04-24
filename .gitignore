@@ -1,0 +1,11 @@
+# Ignore Environment Variables (Protects your API Key)
+.env
+backend/.env
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
+
+# Ignore Node Modules (Keeps upload small)
+node_modules/
+frontend/vite-project/node_modules/

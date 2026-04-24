@@ -1,0 +1,15 @@
+/* Move the Google Font import to the absolute top */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Tailwind import comes second */
+@import "tailwindcss";
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: #f9fafb;
+}
